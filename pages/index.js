@@ -1,20 +1,20 @@
 import Head from "next/head";
-import Feature from "../components/Feature";
-import Pricing from "../components/Pricing";
-import Hero from "../components/Hero";
+import Approach from "../components/Approach";
 import Layout from "../components/Layout/Layout";
+import About from "../components/About";
+import Whatwedo from "../components/whatwedo";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>VPN Best Landingpage </title>
+        <title>RITech</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <Hero />
-        <Feature />
-        <Pricing />
+        <About />
+        <Approach />
+        <Whatwedo />
       </Layout>
     </>
   );
