@@ -1,8 +1,6 @@
 import Head from "next/head";
-import Approach from "../components/Approach";
 import Layout from "../components/Layout/Layout";
-import About from "../components/About";
-import Whatwedo from "../components/whatwedo";
+import T_section from "../components/T_section";
 
 export default function Contact() {
   return (
@@ -12,9 +10,7 @@ export default function Contact() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <About />
-        <Approach />
-        <Whatwedo />
+        <T_section />
       </Layout>
     </>
   );
