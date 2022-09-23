@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import P_section from "./P_section";
+import T_section from "./T_section";
 
 const Whatwedo = () => {
   return (
@@ -110,6 +111,7 @@ const Whatwedo = () => {
           </p>
           <div className="w-full flex flex-col">
             <P_section />
+            <T_section />
           </div>
         </div>
       </div>
