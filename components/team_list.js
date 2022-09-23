@@ -9,8 +9,8 @@ const team_list = [
      },
      {
        name: "Abdoulaye SAKO",
-       image: "/images/avatar.png",
-       experience: "Robotics & AI",
+       image: "/assets/sako.jpeg",
+       experience: "Computer Science, Robotics & AI",
        role:
          "Mechanical engineer",
        website: "/",
