@@ -11,8 +11,9 @@
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^3.0.0",
     "autoprefixer": "^10.0.4",
+    "babel-plugin-inline-react-svg": "^2.0.1",
     "framer-motion": "^2.9.5",
-    "next": "10.0.3",
+    "next": "^12.3.1",
     "postcss": "^8.1.10",
     "postcss-import": "^13.0.0",
     "react": "17.0.1",
@@ -21,8 +22,5 @@
     "react-slick": "^0.27.13",
     "slick-carousel": "^1.8.1",
     "tailwindcss": "^2.0.1"
-  },
-  "devDependencies": {
-    "babel-plugin-inline-react-svg": "^1.1.2"
   }
 }
