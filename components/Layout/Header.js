@@ -4,6 +4,8 @@ import { Link as LinkScroll } from "react-scroll";
 import LogoVPN from "../../public/assets/ritech_logo.svg";
 import NextLink from "next/link"
 
+import NextLink from 'next/link';
+
 const Header = () => {
   const [activeLink, setActiveLink] = useState(null);
   const [scrollActive, setScrollActive] = useState(false);
@@ -141,6 +143,11 @@ const Header = () => {
             >
               Meet our team
             </LinkScroll>
+
+              href='/team'
+            >
+              Meet our team
+            </NextLink>
 
           </ul>
         </nav>
