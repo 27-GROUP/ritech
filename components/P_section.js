@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import listProduct from "./product-list";
 
 export default function P_section() {
