@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import P_section from "./P_section";
 
 const Whatwedo = () => {
   return (
@@ -109,7 +108,6 @@ const Whatwedo = () => {
             They are all made by experts and are certified reliable
           </p>
           <div className="w-full flex flex-col">
-            <P_section />
           </div>
         </div>
       </div>
