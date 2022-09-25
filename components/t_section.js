@@ -11,26 +11,26 @@ export default function T_section() {
           </div>
           <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
             {team_list.map((team_list) => (
-              <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
-                <a href="">
-                  <img class="mx-auto mb-4 w-40 h-40 rounded-lg sm:rounded-none sm:rounded-l-lg" src={team_list.image} />
-                </a>
-                <div class="p-5">
-                  <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    <a href="#">{team_list.name}</a>
-                  </h3>
-                  <span class="text-black-500 font-bold dark:text-gray-400">{team_list.role}</span>
-                  <p class="mt-3 mb-4 font-light italic text-dark-500 dark:text-gray-400">{team_list.experience}</p>
-                  <ul class="flex space-x-4 sm:mt-0">
-                    <li>
-                      <a href={team_list.website} class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                        <svg xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="20" height="20"><path d="M12,0A12,12,0,1,0,24,12,12.013,12.013,0,0,0,12,0Zm8.647,7H17.426a19.676,19.676,0,0,0-2.821-4.644A10.031,10.031,0,0,1,20.647,7ZM16.5,12a10.211,10.211,0,0,1-.476,3H7.976A10.211,10.211,0,0,1,7.5,12a10.211,10.211,0,0,1,.476-3h8.048A10.211,10.211,0,0,1,16.5,12ZM8.778,17h6.444A19.614,19.614,0,0,1,12,21.588,19.57,19.57,0,0,1,8.778,17Zm0-10A19.614,19.614,0,0,1,12,2.412,19.57,19.57,0,0,1,15.222,7ZM9.4,2.356A19.676,19.676,0,0,0,6.574,7H3.353A10.031,10.031,0,0,1,9.4,2.356ZM2.461,9H5.9a12.016,12.016,0,0,0-.4,3,12.016,12.016,0,0,0,.4,3H2.461a9.992,9.992,0,0,1,0-6Zm.892,8H6.574A19.676,19.676,0,0,0,9.4,21.644,10.031,10.031,0,0,1,3.353,17Zm11.252,4.644A19.676,19.676,0,0,0,17.426,17h3.221A10.031,10.031,0,0,1,14.605,21.644ZM21.539,15H18.1a12.016,12.016,0,0,0,.4-3,12.016,12.016,0,0,0-.4-3h3.437a9.992,9.992,0,0,1,0,6Z" /></svg>
-                      </a>
-                    </li>
-                  </ul>
+               <div class="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl">
+               <div class="grid grid-cols-1">
+                 <div class="w-full max-w-lg mx-auto my-4 bg-white shadow-xl rounded-xl">
+                 <div className="space-y-4 text-center group">
+                <div className="w-56 h-56 mx-auto rounded-[4rem] rotate-45 overflow-hidden md:w-40 md:h-40 lg:w-56 lg:h-56">
+                <img class="w-64 h-64 mx-auto object-cover rounded-full" 
+                    src={team_list.image} />
                 </div>
-
-              </div>
+                </div>
+                   <div class="p-6 lg:text-center">
+                     <span class="mb-8 text-xs font-semibold tracking-widest text-blue-600 uppercase"> {team_list.role}</span>
+                     <h4 class="mt-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">{team_list.name}</h4>
+                     <p class="mt-3 text-base leading-relaxed text-dark-500">{team_list.experience}</p>
+                     <div class="mt-6">
+                       <a href={team_list.website} class="flex items-center justify-center w-full px-10 py-4 text-base font-medium text-center text-white transition duration-500 ease-in-out transform bg-blue-600 rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">View website </a>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
             ))}
           </div>
         </div>
