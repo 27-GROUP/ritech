@@ -12,12 +12,12 @@ export default function T_section() {
           <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
             {team_list.map((team_list) => (
               <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
-                <a href="">
+                <a>
                   <img class="mx-auto mb-4 w-40 h-40 rounded-lg sm:rounded-none sm:rounded-l-lg" src={team_list.image} />
                 </a>
                 <div class="p-5">
                   <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    <a href="#">{team_list.name}</a>
+                    <a >{team_list.name}</a>
                   </h3>
                   <span class="text-black-500 font-bold dark:text-gray-400">{team_list.role}</span>
                   <p class="mt-3 mb-4 font-light italic text-dark-500 dark:text-gray-400">{team_list.experience}</p>

@@ -12,6 +12,7 @@
     "@fullhuman/postcss-purgecss": "^3.0.0",
     "autoprefixer": "^10.0.4",
     "babel-plugin-inline-react-svg": "^2.0.1",
+    "daisyui": "^2.31.0",
     "framer-motion": "^2.9.5",
     "next": "^12.3.1",
     "postcss": "^8.1.10",

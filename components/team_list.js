@@ -4,7 +4,7 @@ const team_list = [
        image: "/assets/mk.jpeg",
        experience: "Computer Science, Robotics & AI, Co-founder of Totally Design Corp",
        role:
-         "Founder, Board Member",
+         "Founder",
        website: "https://mamadouk.me",
      },
      {
@@ -15,6 +15,14 @@ const team_list = [
          "Mechanical engineer",
        website: "/",
      },
+     {
+      name: "Ouro-Akondo",
+      image: "/assets/ouro.jpg",
+      experience: "Architecture & Design, Founder and Chair of Totally Design",
+      role:
+        "VP of Operations",
+      website: "www.totallydesign.ml",
+    },
    ];
    
    export default team_list;

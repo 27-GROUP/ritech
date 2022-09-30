@@ -1,41 +1,41 @@
 const listProduct = [
     {
-      name: "iezh Robert",
+      name: "LG1",
       image: "/assets/Products/m2.png",
-      categorie: "Military",
+      categorie: "Military Logistics",
     },
     {
-      name: "iezh Robert",
+      name: "LG2",
       image: "/assets/Products/m4.png",
-      categorie: "Military",
+      categorie: "Military Logistics",
     },
     {
-      name: "iezh Robert",
+      name: "EXP1",
       image: "/assets/Products/m5.png",
-      categorie: "Military",
+      categorie: "Military Surveillance & Exploration",
     },
     {
-      name: "iezh Robert",
+      name: "Morpheus",
       image: "/assets/Products/m1.png",
-      categorie: "Military",
+      categorie: "Military Remote Gun-controlled",
     },
     {
-      name: "iezh Robert",
+      name: "AKNG1",
       image: "/assets/Products/f1.png",
       categorie: "Firefighting",
     },
     {
-      name: "iezh Robert",
+      name: "AKNG2",
       image: "/assets/Products/f2.png",
       categorie: "Firefighting",
     },
     {
-      name: "iezh Robert",
+      name: "EXP2",
       image: "/assets/Products/e3.png",
       categorie: "Mining",
     },
     {
-      name: "iezh Robert",
+      name: "EXP3",
       image: "/assets/Products/e2.png",
       categorie: "Mining",
     },
